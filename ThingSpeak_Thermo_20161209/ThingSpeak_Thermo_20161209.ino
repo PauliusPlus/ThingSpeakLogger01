@@ -1,3 +1,13 @@
+//// ThingsSpeak+Arduino+DS18B20
+/// Internetinis logeris temperaturai registruoti realiu laiku
+// sukurta 2017 01
+// PauliusPlus
+/// padarytas branchas
+/// kazkas pakeista.....
+
+
+
+
      #include "ThingSpeak.h"
     unsigned long myChannelNumber = 195874;
     const char * myWriteAPIKey = "QPW308ZM2HSYGTK9";
@@ -43,7 +53,7 @@
     int totalLight = 0;                  // the running total
     int averageLight = 0;                // the average
 
-/////---------------------------------------- SETUP -----------------------------------------
+/////-------------------------------------------- SETUP -----------------------------------------
 
     void setup() {
     Serial.begin(9600);
@@ -72,6 +82,9 @@
     previousMillis = millis();
 
     }////setup
+
+
+
 
 
 
